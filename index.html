@@ -24,6 +24,24 @@
         <section id="content">
             <h1>Welcome to Our E-commerce Platform</h1>
         </section>
+        <section id="visualizerArea">
+            <!-- 800 × 600 iframe -->
+            <iframe
+                id="visualizerFrame"
+                width="800"
+                height="600"
+                src=""
+                style="border:0;">
+            </iframe>
+
+            <!-- Button to load the visualizer URL into the iframe -->
+            <button
+                id="openVisualizerBtn"
+                type="button"
+                onclick="document.getElementById('visualizerFrame').src='index.html?roomvoStartVisualizer=true';">
+                Open Visualizer
+            </button>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 E-commerce Platform. All Rights Reserved.</p>
